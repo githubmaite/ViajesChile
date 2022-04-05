@@ -1,0 +1,148 @@
+-  codigo generado en GitHub al crear nuevo repositorio
+
+
+echo "# ViajesChile" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:githubmaite/ViajesChile.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:githubmaite/ViajesChile.git
+
+git branch -M main
+
+git push -u origin main
+
+
+--  comandos ejecutados en git bash en la carpeta del pc que quiero versionar   
+
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile
+$ git init
+Initialized empty Git repository in C:/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile/.git/
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile (master)
+$ ls
+assets/  index.html
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vscode/
+        assets/
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile (master)
+$ git add .
+warning: LF will be replaced by CRLF in .vscode/settings.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/css/style.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile (master)
+
+$ git add .
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile (master)
+
+$ git status
+
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .vscode/settings.json
+        new file:   assets/Leeme.text
+        new file:   assets/css/style.css
+        new file:   assets/img/card1.jpg
+        new file:   assets/img/card2.jpg
+        new file:   assets/img/card2_original.jpg
+        new file:   assets/img/card3.jpg
+        new file:   assets/img/card4.jpg
+        new file:   assets/img/carousel1.jpg
+        new file:   assets/img/carousel2.jpg
+        new file:   assets/img/carousel3.jpg
+        new file:   assets/img/viajes.svg
+        new file:   assets/js/script.js
+        new file:   index.html
+
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile (master)
+
+$ git commit -m " version 1 proyecto Viaje Chile "
+
+[master (root-commit) f39a191]  version 1 proyecto Viaje Chile
+ 14 files changed, 415 insertions(+)
+ create mode 100644 .vscode/settings.json
+ create mode 100644 assets/Leeme.text
+ create mode 100644 assets/css/style.css
+ create mode 100644 assets/img/card1.jpg
+ create mode 100644 assets/img/card2.jpg
+ create mode 100644 assets/img/card2_original.jpg
+ create mode 100644 assets/img/card3.jpg
+ create mode 100644 assets/img/card4.jpg
+ create mode 100644 assets/img/carousel1.jpg
+ create mode 100644 assets/img/carousel2.jpg
+ create mode 100644 assets/img/carousel3.jpg
+ create mode 100644 assets/img/viajes.svg
+ create mode 100644 assets/js/script.js
+ create mode 100644 index.html
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile (master)
+$ git remote
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile (master)
+$ git remote -v
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile (master)
+$ git remote show
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile (master)
+$ git remote show
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile (master)
+
+$ git remote add origin git@github.com:githubmaite/ViajesChile.git
+
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile (master)
+
+$ git remote show
+origin
+
+Maria@LenovoMT MINGW64 /c/A Edutecno2022/fundamentosWeb/unidadBootstrap/viajesChile (master)
+
+$ git push -u origin master
+
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (21/21), 18.93 MiB | 187.00 KiB/s, done.
+Total 21 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:githubmaite/ViajesChile.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
