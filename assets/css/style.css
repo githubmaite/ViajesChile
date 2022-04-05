@@ -1,0 +1,46 @@
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        /* letra a utilisar en la pagina */
+        
+        body {
+            font-family: 'Cabin', sans-serif;
+        }
+        /* hacer transparente el navbar */
+        
+        .navbar {
+            background-color: transparent !important;
+        }
+        /*Tamaño y peso del texto */
+        
+        .navbar-nav {
+            font-weight: 400;
+            font-size: 16px;
+        }
+        
+        h3 {
+            font-weight: 700;
+            font-size: 30px;
+        }
+        
+        card-text p {
+            font-weight: 400;
+            font-size: 20px;
+        }
+        
+        card-body p {
+            font-weight: 400;
+            font-size: 20px;
+        }
+        
+        form {
+            font-weight: 400;
+            font-size: 23px;
+        }
+        
+        button {
+            font-weight: 400;
+            font-size: 16px;
+        }

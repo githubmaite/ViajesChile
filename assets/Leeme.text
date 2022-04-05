@@ -1,0 +1,23 @@
+Leeme
+
+BootStap v5.0
+
+jQuery Core 3.6.0  
+
+font awesome
+
+google fonts : tipo de letra font-family: 'Cabin', sans-serif;
+
+navbar: Logo y menu con link de referencia a diferentes secciones de la pagina segun opcion seleccionada
+
+carousel: con 3 fotos a desplegar
+
+Grilla 1: icono y texto el cual debe desaparecer en vision celular
+
+Grilla 2: foto y texto
+
+Contacto: Formulario con un mensaje de alerta en el boton
+          enviar los datos
+
+Footer: Titulo mas iconos de redes sociales los cuales debe referenciar a su correspondiente pagina web
+        tambien se les agrego un mensaje cuando el mouse pasa sobre ellos utilizando tooltip
