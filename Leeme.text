@@ -8,7 +8,8 @@ font awesome
 
 google fonts : tipo de letra font-family: 'Cabin', sans-serif;
 
-navbar: Logo y menu con link de referencia a diferentes secciones de la pagina segun opcion seleccionada
+navbar: - Logo y menu con link de referencia a diferentes secciones de la pagina segun opcion seleccionada
+        - El menu debe estar fijo, es decir al moverse con scroll el menu permanece
 
 carousel: con 3 fotos a desplegar
 
