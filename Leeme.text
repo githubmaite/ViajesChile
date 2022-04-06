@@ -23,6 +23,8 @@ Contacto: Formulario con un mensaje de alerta en el boton
 Footer: Titulo mas iconos de redes sociales los cuales debe referenciar a su correspondiente pagina web
         tambien se les agrego un mensaje cuando el mouse pasa sobre ellos utilizando tooltip 
 
-debo versionar mi trabajo: realizar 5 commit
+debo versionar mi trabajo: - realizar 5 commit
+                           - crear rama gh-pages y copiar lo de master
+
 
 
