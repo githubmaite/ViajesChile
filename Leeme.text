@@ -4,7 +4,7 @@ BootStap v5.0
 
 jQuery Core 3.6.0  
 
-font awesome
+font awesome : iconos a utilizar
 
 google fonts : tipo de letra font-family: 'Cabin', sans-serif;
 
@@ -25,6 +25,7 @@ Footer: Titulo mas iconos de redes sociales los cuales debe referenciar a su cor
 
 debo versionar mi trabajo: - realizar 5 commit
                            - crear rama gh-pages y copiar lo de master
+
 
 
 
